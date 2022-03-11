@@ -18,7 +18,8 @@ int main(void)
 			{
 				putchar(ch);
 			}	
-				break; }
+				break;
+		}
 	}
 	printf("\n");
 	return (0);
