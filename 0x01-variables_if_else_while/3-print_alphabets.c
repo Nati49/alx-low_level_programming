@@ -14,8 +14,8 @@ int main(void)
 		putchar(ch);
 		if (ch == 'z')
 		{
-			for (ch = 'A'; ch <= 'Z'; ch++){	
-				putchar(ch);}	
+			for (ch = 'A'; ch <= 'Z'; ch++)
+				putchar(ch);	
 				break;}
 	}
 	printf("\n");
