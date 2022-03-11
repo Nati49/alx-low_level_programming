@@ -15,11 +15,12 @@ int main(void)
 		putchar(ch);
 		if (ch == 'z')
 		{
-	        for (up= 'A';up <= 'Z'; up++)
-		{	
-	
-		pitchar(up);
-		}
+			for (ch = 'A'; ch <= 'Z';ch++)
+			{	
+				putchar(ch);
+			}	
+
+	        
 		}
 	
 	}
