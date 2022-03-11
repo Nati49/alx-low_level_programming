@@ -8,7 +8,6 @@
 int main(void)
 {
 	int ch;
-	int up;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
