@@ -11,11 +11,12 @@
  */
 int main(void)
 {
-	int n;
-	for(n=0;n;n<=26;c++);
+	int c;
+
+	for (c = 97; c <= 122; c++)
 	{
-	     putchar(n);
-        }
-	printf(\n);
+		putchar(c);
+	}
+	printf("\n");
 	return (0);
 }
