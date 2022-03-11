@@ -14,9 +14,10 @@ int main(void)
 		putchar(ch);
 		if (ch == 'z')
 		{
-			for (ch = 'A'; ch <= 'Z'; ch++){
-				putchar(ch);}	
-				break;}
+			for (ch = 'A'; ch <= 'Z'; ch++)
+			{
+				putchar(ch); }	
+				break; }
 	}
 	printf("\n");
 	return (0);
