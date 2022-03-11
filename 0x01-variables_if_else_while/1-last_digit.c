@@ -4,7 +4,7 @@
 /* more headers goes there */
 /**
  * main-entry point
- * return>> always 0 (success)
+ * return: always 0 (success)
  */
 /* betty style doc for function main goes there */
 int main(void)
