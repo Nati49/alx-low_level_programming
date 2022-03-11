@@ -1,31 +1,39 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+ **/
 int main(void)
 {
-	int num1, num2;
+	int d, p, q;
 
-	for (num1 = '0'; num1 < '9'; num1++)
+	for (d = '0'; d < '9'; d++)
 	{
-		for (num2 = num1 + 1; num2 <= '9'; num2++)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			if (num1 != num2)
+			for (q = p + 1; q <= '9'; q++)
 			{
-				putchar(num1);
-				putchar(num2);
-				if (num1 == '8' && num2 == '9')
+				if ((p != d) != q)
 				{
-					continue;
+					putchar(d);
+					putchar(p);
+					putchar(q);
+					if (d == '7' && p == '8')
+						continue;
+					putchar(',');
+					putchar(' ');
 				}
 			}
-			putchar(',');
-			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }
+
