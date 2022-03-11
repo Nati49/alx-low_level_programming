@@ -5,8 +5,7 @@
 
 /* betty style doc for function main goes there */
 int main(void)
-/*this is main function */	
-{
+/*this is main function */{
 	int n;
 
 	srand(time(0));
