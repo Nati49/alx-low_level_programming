@@ -12,9 +12,9 @@ int main(void)
         for (ch = 'a'; ch <= 'z'; ch++)
         {
                 putchar(ch);
-                for (ch == 'e'& 'q')
+                if (ch == 'e'& 'q')
                 {
-		break;}
+			break;}
                 
         }
         printf("\n");
