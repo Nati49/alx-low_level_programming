@@ -15,9 +15,8 @@ int main(void)
 		if (ch == 'z')
 		{
 			for (ch = 'A'; ch <= 'Z'; ch++)
-			{
-				putchar(ch);
-			}	
+			
+				putchar(ch);	
 				break;
 		}
 	}
