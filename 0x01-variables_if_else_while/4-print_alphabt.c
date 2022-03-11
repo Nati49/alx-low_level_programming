@@ -11,11 +11,10 @@ int main(void)
 
         for (ch = 'a'; ch <= 'z'; ch++)
         {
-                putchar(ch);
                 if (ch == 'e' || ch == 'q')
                 {
-			break; }
-                
+			continue; }
+		putchar(ch);       
         }
         printf("\n");
         return (0);
