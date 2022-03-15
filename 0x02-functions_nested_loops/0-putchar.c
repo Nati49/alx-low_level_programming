@@ -12,8 +12,8 @@ int main(void)
 
 	for (n = 0; n < 8; n++)
 	{
-		putchar(x[n]);
+		_putchar(x[n]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
