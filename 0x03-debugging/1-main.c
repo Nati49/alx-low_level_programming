@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	printf("Infinite loop incoming :(\n");/*":"must be"*/
+	printf("Infinite loop incoming :(\n");/*":"must be '"' unnecessary '('*/
 
 	i = 0;
 
