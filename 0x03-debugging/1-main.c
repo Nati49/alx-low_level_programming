@@ -10,7 +10,7 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 	i = 0;
-	while (i < 10)	/*i must increase  to make a limit */
+	while (i < 10)/*i must increase  to make a limit */
 	{
 		putchar(i);
 	}
