@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- *main.h: Debugging
- *
+ *main.h - Debugging
  *Return: 0
  */
 
-int main(void)
+int main(void)i
 {
 	int i ;
 
