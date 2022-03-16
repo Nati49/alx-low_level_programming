@@ -13,7 +13,8 @@ int main(void)
 
         i = 0;
 
-        while (i < 10)/*i must either increase or decrease to make a limit */
+        while (i < 10)
+	/*i must increase  to make a limit */
         {
                 putchar(i);
         }
