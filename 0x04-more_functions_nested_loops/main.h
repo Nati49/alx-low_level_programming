@@ -1,22 +1,16 @@
-#include "main.h"
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-/**
-* main - prints the largest of 3 integers
-* Return: 0
-*/
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
 
-int main(void)
-{
-	int a, b, c;
-	int largest;
-
-	a = 972;
-	b = -98;
-	c = 0;
-	
-	largest = largest_number(a, b, c);
-
-	printf("%d is the largest number\n", largest);
-
-	return (0);
-}
+#endif
