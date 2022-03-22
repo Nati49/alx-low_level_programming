@@ -8,6 +8,6 @@
 void swap_int(int *x, int *y)
 {
 	int n = *x;
-	*x = *y
+	*x = *y;
 	*y = n;
 }
