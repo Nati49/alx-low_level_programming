@@ -51,3 +51,5 @@ int is_palindrome(char *s)
 	if (!*s)
 		return (1);
 
+	return (helperFunction(s, fi, li));
+}
