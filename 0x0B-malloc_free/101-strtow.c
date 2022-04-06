@@ -33,5 +33,5 @@ int wordnos(char *s)
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
  */
-char **strtow(char *str)
+char **strtow(char *s)
 
